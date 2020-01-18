@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+form.main_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+}
+
+form.main_form div.container {
+    display: flex;
+    flex-direction: row;
+}
+
+form.main_form div.container div.item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+form.main_form input {
+    margin-right: 10px;
+}
